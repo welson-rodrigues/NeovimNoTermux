@@ -55,10 +55,24 @@ vim.opt.rtp:prepend(lazypath)
 -- Plugins
 require("lazy").setup({
   "folke/tokyonight.nvim", -- Tema
+
+  -- File explorer (Ctrl+b para abrir/fechar)
+  {
+    "nvim-tree/nvim-tree.lua",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    config = function()
+      require("nvim-tree").setup({})
+      vim.keymap.set("n", "<C-b>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+    end
+  }
 })
 
 -- Ativar tema
 vim.cmd[[colorscheme tokyonight]]
+
+-- Linhas numeradas
+vim.opt.number = true
+vim.opt.relativenumber = true
 ```
 
 # 3. Salve e saia do Neovim
