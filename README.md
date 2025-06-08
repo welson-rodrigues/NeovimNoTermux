@@ -58,8 +58,8 @@ vim.cmd[[colorscheme tokyonight]]
 ```
 
 # 3. Salve e saia do Neovim
-• Aperte ESQ
-• Digite :wq e dê Enter
+- Aperte ESQ
+- Digite :wq e dê Enter
 
 # 4. Execute o Neovim
 
