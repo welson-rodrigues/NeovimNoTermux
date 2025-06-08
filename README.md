@@ -25,6 +25,7 @@ nvim --version
 ```
 
 2. Configure o tema Tokyonight com Lazy.nvim
+<br>
 Crie os diretórios de configuração:
 ```bash
 mkdir -p ~/.config/nvim
