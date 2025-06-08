@@ -1,6 +1,6 @@
 # Neovim com Tema no Termux
 
-Este guia mostra como instalar o Neovim no Termux e configurar um tema moderno (Tokyonight) com o gerenciador de plugins Lazy.nvim.
+Este guia mostra como instalar o Neovim no Termux e configurar um tema moderno (Tokyonight) com o gerenciador de plugins Lazy.nvim. No final da leitura você vai encontrar o link do vídeo onde explico com detalhes como usar o Neovim no celular.
 
 ---
 
