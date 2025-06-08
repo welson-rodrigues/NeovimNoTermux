@@ -12,7 +12,7 @@ Este guia mostra como instalar o Neovim no Termux e configurar um tema moderno (
 
 ---
 
-## 📦 1. Instale o Neovim
+## 1. Instale o Neovim
 
 ```bash
 pkg update && pkg upgrade
@@ -24,15 +24,14 @@ pkg install neovim git curl
 nvim --version
 ```
 
-2. Configure o tema Tokyonight com Lazy.nvim
-<br>
-Crie os diretórios de configuração:
+## 2. Configure o tema Tokyonight com Lazy.nvim
+# Crie os diretórios de configuração:
 ```bash
 mkdir -p ~/.config/nvim
 nvim ~/.config/nvim/init.lua
 ```
 
-Cole este conteúdo no init.lua:
+# Cole este conteúdo no init.lua:
 
 ```bash
 -- Instalar lazy.nvim automaticamente
@@ -58,12 +57,12 @@ require("lazy").setup({
 vim.cmd[[colorscheme tokyonight]]
 ```
 
-Clique em ESQ se estiver no modo de edição, e salve com :wq
+# Clique em ESQ se estiver no modo de edição, e salve com :wq
 
-3. Execute o Neovim
+## 3. Execute o Neovim
 
 ```bash
 nvim
 ```
 
-Na primeira execução, o Lazy.nvim instalará o tema automaticamente.
+# Na primeira execução, o Lazy.nvim instalará o tema automaticamente.
