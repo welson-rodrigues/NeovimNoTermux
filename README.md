@@ -16,6 +16,8 @@ Este guia mostra como instalar o Neovim no Termux e configurar um tema moderno (
 
 ```bash
 pkg update && pkg upgrade
+```
+```bash
 pkg install neovim
 ```
 
