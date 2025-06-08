@@ -28,6 +28,8 @@ nvim --version
 ## Crie os diretórios de configuração:
 ```bash
 mkdir -p ~/.config/nvim
+```
+```bash
 nvim ~/.config/nvim/init.lua
 ```
 
