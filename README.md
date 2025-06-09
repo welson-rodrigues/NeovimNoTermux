@@ -1,6 +1,6 @@
 # Neovim com Tema no Termux
 
-Este guia mostra como instalar o Neovim no Termux e configurar um tema moderno (Tokyonight) com o gerenciador de plugins Lazy.nvim. No final da leitura você vai encontrar o link do vídeo onde explico com detalhes como usar o Neovim no celular.
+Este guia mostra como instalar o Neovim no Termux e configurar um tema moderno (Tokyonight) com o gerenciador de plugins Lazy.nvim. Também vamos adicionar explorador de arquivos, barra de status, autocompletar e suporte a LSP — tudo isso direto no celular. No final da leitura você encontra o link do vídeo onde explico tudo passo a passo.
 
 ---
 
@@ -13,10 +13,11 @@ Este guia mostra como instalar o Neovim no Termux e configurar um tema moderno (
 ---
 
 ## 1. Instale o Neovim
-
+- Atualize os pacotes:
 ```bash
 pkg update && pkg upgrade
 ```
+- Instale o Neovim:
 ```bash
 pkg install neovim
 ```
@@ -26,8 +27,8 @@ pkg install neovim
 nvim --version
 ```
 
-# 2. Configure o tema Tokyonight com Lazy.nvim
-## Crie os diretórios de configuração:
+# 2. Configure o Neovim com Tema e Plugins
+## Crie as pastas de configuração:
 ```bash
 mkdir -p ~/.config/nvim
 ```
@@ -36,7 +37,6 @@ nvim ~/.config/nvim/init.lua
 ```
 
 ## Cole este conteúdo no init.lua:
-
 ```bash
 -- Tecla líder
 vim.g.mapleader = " "
@@ -149,12 +149,12 @@ cmp.setup({
 
 # 3. Salve e saia do Neovim
 - Aperte ESQ
-- Digite :wq e dê Enter
+- Digite :wq e pressione Enter
 
 # 4. Execute o Neovim
-
 ```bash
 nvim
 ```
 
-## Na primeira execução, o Lazy.nvim instalará o tema automaticamente.
+# Vídeo Tutorial
+
