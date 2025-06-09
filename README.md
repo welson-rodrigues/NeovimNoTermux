@@ -22,13 +22,13 @@ pkg update && pkg upgrade
 pkg install neovim
 ```
 
-## Verifique se foi instalado:
+- Verifique se foi instalado:
 ```bash
 nvim --version
 ```
 
 # 2. Configure o Neovim com Tema e Plugins
-## Crie as pastas de configuração:
+- Crie as pastas de configuração:
 ```bash
 mkdir -p ~/.config/nvim
 ```
@@ -36,7 +36,7 @@ mkdir -p ~/.config/nvim
 nvim ~/.config/nvim/init.lua
 ```
 
-## Cole este conteúdo no init.lua:
+- Cole este conteúdo no init.lua:
 ```bash
 -- Tecla líder
 vim.g.mapleader = " "
