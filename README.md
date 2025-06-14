@@ -19,7 +19,7 @@ pkg update && pkg upgrade
 ```
 - Instale o Neovim:
 ```bash
-pkg install neovim
+pkg install neovim vim
 ```
 
 - Verifique se foi instalado:
